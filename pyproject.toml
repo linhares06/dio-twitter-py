@@ -2,21 +2,16 @@
 name = "mongo-test"
 version = "0.1.0"
 description = ""
-authors = ["Guilherme Carvalho <guilherme.carvalho-ext@viavarejo.com.br>"]
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.8"
-fastapi = "^0.68.1"
-pymongo = "^3.12.0"
-tweepy = "^3.10.0"
-uvicorn = {extras = ["standard"], version = "^0.15.0"}
+python = "^3.12"
+pymongo = "^4.7.3"
+fastapi = "^0.111.0"
+tweepy = "^4.14.0"
 
-[tool.poetry.dev-dependencies]
-pytest = "^6.2.5"
-flake8 = "^3.9.2"
-black = "^21.8b0"
-isort = "^5.9.3"
 
 [build-system]
-requires = ["poetry-core>=1.0.0"]
+requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
